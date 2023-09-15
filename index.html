@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo - List</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>Project todo-list</h1>
+    <div class="md">
+        <ul>
+            <li>clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 73%);</li>
+            <li>animation rotate -> backface-visibility: hidden;</li>
+            <li>export - import js module</li>
+        </ul>
+    </div>
+    <div class="card">
+        <div class="header">
+            <img src="./img/X2oObC4.png" alt="">
+        </div>
+
+        <div class="main">
+            <div class="main__menu">
+                <div class="main__menu-option">
+                    <div class="menu-option up" id="up"></div>
+                    <div class="menu-option az" id="az"></div>
+                    <div class="menu-option za" id="za"></div>
+                    <div class="menu-option down" id="down"></div>
+                </div>
+
+                <div class="main__menu-toggle">
+                    <div class="menu-toggle" id="open">
+                        <i class="fa fa-filter"></i> 
+                    </div>
+                    <div class="menu-toggle" id="shutdown">
+                        <i class="fa fa-times"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main__title">
+                <h3>My Tasks</h3>
+                <p>September 9, 2020</p>
+            </div>
+
+            <div class="main__input">
+                <input type="text" class="add-input" id="add-input" placeholder="enter your task ...">
+                <button class="add-btn" id="add-btn">add</button>
+            </div>
+
+            <div class="main__list">
+                <!-- <ul class="new"></ul> -->
+                <ul class="new">
+                    <!-- <li>
+                        <p>new task</p>
+                        <span class="remove" id="remove">
+                            <i class="fa-solid fa-trash"></i>
+                        </span>
+                        <label for="click"></label>
+                        <input type="checkbox" class="click" id="click">
+                    </li> -->
+                </ul>
+                <hr>
+                <!-- <ul class="done"></ul> -->
+                <ul class="done">
+                    <!-- <li>
+                        <p>new task</p>
+                        <span class="remove" id="remove">
+                            <i class="fa-solid fa-trash"></i>
+                        </span>
+                        <input type="checkbox" class="click" id="click">
+                    </li> -->
+                </ul>
+            </div>
+            
+        </div> 
+    </div>
+    <!-- <script src="./js/menu.js"></script> -->
+    <script type="module" src="./js/main.js"></script> 
+</body>
+</html>
